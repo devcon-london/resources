@@ -1,3 +1,4 @@
+Date: Oct 9th, 2018
 Location: Plexal, 7pm
 Attendees: Henry, Dave, Tom, Silvio, Matteo, Marcel
 
@@ -87,7 +88,7 @@ Possible future directions:
 
 - Union
   - Set baseline day-rate?
-- Live broadcasts for talks? 
+- Live broadcasts for talks?
 - make a podcast?
 - A wider conference?
 - Jobs
