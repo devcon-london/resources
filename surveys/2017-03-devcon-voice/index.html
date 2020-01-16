@@ -1,0 +1,149 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+		<title>reveal.js</title>
+
+		<link rel="stylesheet" href="css/reveal.css">
+		<link rel="stylesheet" href="css/theme/white.css">
+
+		<!-- Theme used for syntax highlighting of code -->
+		<link rel="stylesheet" href="lib/css/zenburn.css">
+
+		<!-- Printing and PDF exports -->
+		<script>
+			var link = document.createElement( 'link' );
+			link.rel = 'stylesheet';
+			link.type = 'text/css';
+			link.href = window.location.search.match( /print-pdf/gi ) ? 'css/print/pdf.css' : 'css/print/paper.css';
+			document.getElementsByTagName( 'head' )[0].appendChild( link );
+		</script>
+	</head>
+	<body>
+		<div class="reveal">
+			<div class="slides">
+				<section>
+					<h1>Devcon.Voice</h1>
+					<p>3.17</p>
+				</section>
+				<section>
+					<section>The numbers</section>
+					<section>
+						How many times have you opened the list?
+						<canvas data-chart="pie">
+						<!-- 
+						{
+						 "data": {
+						  "labels": ["never", "a few times", "frequently", "what list?"],
+						  "datasets": [
+						   {
+						    "data":[10,32,6,3],
+						    "backgroundColor": [
+						        "#FF6384",
+						        "#36A2EB",
+						        "#FFCE56",
+						        "#4BC0C0"
+						    ]
+						   }
+						  ]
+						 }, 
+						 "options": { "responsive": "true" }
+						}
+						-->
+						</canvas>
+					</section>
+					<section>
+						Do you want to cull zombies?
+						<canvas data-chart="pie">
+						<!-- 
+						{
+						 "data": {
+						  "labels": ["yes", "no", "other"],
+						  "datasets": [
+						   {
+						    "data":[27,15,9],
+						    "backgroundColor": [
+						        "#FF6384",
+						        "#36A2EB",
+						        "#FFCE56"
+						    ]
+						   }
+						  ]
+						 }, 
+						 "options": { "responsive": "true" }
+						}
+						-->
+						</canvas>
+					</section>
+					<section>
+						Would you help?
+						<canvas data-chart="pie">
+						<!-- 
+						{
+						 "data": {
+						  "labels": ["yes", "no", "maybe"],
+						  "datasets": [
+						   {
+						    "data":[26,2,23],
+						    "backgroundColor": [
+						        "#FF6384",
+						        "#36A2EB",
+						        "#FFCE56"
+						    ]
+						   }
+						  ]
+						 }, 
+						 "options": { "responsive": "true" }
+						}
+						-->
+						</canvas>
+					</section>
+				</section>
+				<section>
+					<section>How we are going?</section>					
+					<section>Slack is great</section>
+					<section>Talks VS Drinks</section>
+					<section>Too much JS</section>
+				</section>
+				<section>
+					<section>The big picture</section>					
+					<section>Conference</section>
+					<section>Share knowledge (via blog, github, hackatons, mentorship, ...)</section>
+					<section>Paid Slack</section>
+					<section>and of course
+						<h2>Ski trip and strippers!</h2>
+					</section>
+				</section>
+				<section>
+					<section>And the winner is...</section>
+					<section>
+						<p><a href="https://github.com/grieve">Ryan Grieve</a>: 179</p>
+						<p>(real world: 174)</p>
+					</section>
+				</section>
+			</div>
+		</div>
+
+		<script src="lib/js/head.min.js"></script>
+		<script src="js/reveal.js"></script>
+
+		<script>
+			// More info https://github.com/hakimel/reveal.js#configuration
+			Reveal.initialize({
+				history: true,
+
+				// More info https://github.com/hakimel/reveal.js#dependencies
+				dependencies: [
+					{ src: 'plugin/markdown/marked.js' },
+					{ src: 'plugin/markdown/markdown.js' },
+					{ src: 'plugin/notes/notes.js', async: true },
+					{ src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } },
+					{ src: 'plugin/chart/Chart.min.js' },				
+					{ src: 'plugin/chart/csv2chart.js' }
+				]
+			});
+		</script>
+	</body>
+</html>

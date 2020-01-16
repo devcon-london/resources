@@ -1,4 +1,4 @@
-- Date: TBC, between end of Jan and beginning of Feb 2020
+- Date: TBC, between end of Jan and Feb 2020
 - Location: TBC
 
 # What is an unconference
